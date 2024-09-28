@@ -1,23 +1,39 @@
-# Netflix GPT
+# MoviesFlix-GPT
 
--Create a React Project using npx-create-react-app
--Configure Tailwind into CSS
--Routing 
--Login Form
--Sigup Form
--uerRef
+A React application inspired by Netflix, MoviesFlix-GPT provides a dynamic platform for movie browsing with tailored suggestions, Firebase authentication, and a sleek, user-friendly design.
 
-# Features
--Login/SigUp Page
-    - Sigin/Signup form
-    -redirect to Browse Page
--Browser (only after Authentication)
-    -Header
-    -Main Movie
-        -Trailer in Background
-        -Title & Description
-        -Movie Suggestions
-            - Movies List * N (Vertically and Horizontally Scrollable)
--NetflixGPT
-    -Search Bar
-    -Movie Suggestions
+## Table of Contents
+
+- [Features](#features)
+- [Project Setup](#project-setup)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Implementation Details](#implementation-details)
+- [Acknowledgements](#acknowledgements)
+
+## Features
+
+- **Login/Signup Page**
+  - Login and Signup forms with validation using `useRef`.
+  - Redirects authenticated users to the Browse page.
+  - Deployed App to Firebase.
+  - Authentication using Google Firebase
+
+- **Browse Page (Accessible only after Authentication)**
+  - A header with navigation options.
+  - Main movie section featuring a background trailer, title, and description.
+  - Movie suggestions with vertically and horizontally scrollable lists.
+
+- **MoviesFlix-GPT**
+  - Search bar for movie queries.
+  - Provides personalized movie suggestions based on search input.
+
+## Project Setup
+
+1. **Create React App**: Start the project using the following command:
+
+   ```bash
+   npx create-react-app moviesflix-gpt
+   cd moviesflix-gpt
