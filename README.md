@@ -1,8 +1,11 @@
 # Netflix GPT
 
-Create a React Project using npx-create-react-app
-Configure Tailwind into CSS
-
+-Create a React Project using npx-create-react-app
+-Configure Tailwind into CSS
+-Routing 
+-Login Form
+-Sigup Form
+-uerRef
 
 # Features
 -Login/SigUp Page
