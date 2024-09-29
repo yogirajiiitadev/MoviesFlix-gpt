@@ -1,8 +1,10 @@
+import { Header } from "./Header"
+import { Header2 } from "./Header2"
 
 export const Browse = ()=>{
     return(
         <div>
-            Browse Component
+            <Header2></Header2>
         </div>
     )
 }

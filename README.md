@@ -20,6 +20,8 @@ A React application inspired by Netflix, MoviesFlix-GPT provides a dynamic platf
   - Redirects authenticated users to the Browse page.
   - Deployed App to Firebase.
   - Authentication using Google Firebase
+  - Use Firebase API's like onAuthStateChange, signInWithEmailAndPassword, createUserWithEmailAndPassword 
+  - Created our Redux Store using userSlice
 
 - **Browse Page (Accessible only after Authentication)**
   - A header with navigation options.
