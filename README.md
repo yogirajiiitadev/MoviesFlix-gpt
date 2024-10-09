@@ -28,9 +28,8 @@ A React application inspired by Netflix, MoviesFlix-GPT provides a dynamic platf
   - Unsubscribed to the onAuthStateChange callback API once the header component unmounts.
 
 - **Browse Page (Accessible only after Authentication)**
-  - A header with navigation options.
-  - Main movie section featuring a background trailer, title, and description.
-  - Movie suggestions with vertically and horizontally scrollable lists.
+  - Register TMDB API, Create a new APP and get the access token.
+  - Get data from TMDB list now playing API.
 
 - **MoviesFlix-GPT**
   - Search bar for movie queries.
