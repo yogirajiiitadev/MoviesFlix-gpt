@@ -3,7 +3,6 @@ import { useRef, useState } from "react";
 import { checkValidData } from "../utils/validate";
 import { auth } from "../utils/firebase";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
-import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 
@@ -13,7 +12,6 @@ export const Login = () => {
   const password = useRef(null);
   const name = useRef(null); // Ref for name input, only used in sign-up
   const [ErrorMessage, setErrorMessage] = useState("");
-  const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const toggleSigninForm = () => {
@@ -52,7 +50,6 @@ export const Login = () => {
                     email : email,
                     displayName : displayName
                 }));
-            navigate("/browse");
           }).catch((error) => {
             // An error occurred
             // ...
@@ -76,7 +73,6 @@ export const Login = () => {
           // Signed in
           const user = userCredential.user;
           console.log(user);
-          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;
