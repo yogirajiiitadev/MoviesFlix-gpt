@@ -55,7 +55,6 @@ export const Login = () => {
             // ...
             setErrorMessage(error.message);
           });
-          console.log(user);
           
           
         })
@@ -66,13 +65,11 @@ export const Login = () => {
         });
     } else {
       // Sign In Logic
-      console.log("signin-logic-invoked!");
 
       signInWithEmailAndPassword(auth, emailValue, passwordValue)
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;

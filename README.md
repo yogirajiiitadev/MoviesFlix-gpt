@@ -30,6 +30,12 @@ A React application inspired by Netflix, MoviesFlix-GPT provides a dynamic platf
 - **Browse Page (Accessible only after Authentication)**
   - Register TMDB API, Create a new APP and get the access token.
   - Get data from TMDB list now playing API.
+  - Created Custom Hook for nowPlayingMovies.
+  - Updated the store with Movies data after creating a slice.
+  - PLanning for main and secondary container.
+  - Fetch data for trailer video.
+  - Update the store with same trailer video data.
+  - Embedded the Youtube video make it mute and Autoplay it on loading.
 
 - **MoviesFlix-GPT**
   - Search bar for movie queries.
