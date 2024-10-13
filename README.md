@@ -36,6 +36,8 @@ A React application inspired by Netflix, MoviesFlix-GPT provides a dynamic platf
   - Fetch data for trailer video.
   - Update the store with same trailer video data.
   - Embedded the Youtube video make it mute and Autoplay it on loading.
+  - Get data from TMDB for Popular, Top Rated and Upcoming Movies using custom Hook.
+  - Build Secondary Container using Movies List and Movie Cards
 
 - **MoviesFlix-GPT**
   - Search bar for movie queries.

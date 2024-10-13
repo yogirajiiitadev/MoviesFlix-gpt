@@ -1,0 +1,16 @@
+/* Scrollbar styling for Webkit browsers (Chrome, Safari, Edge) */
+.black-scrollbar::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  .black-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #000000; /* Black scrollbar thumb */
+    border-radius: 10px;
+  }
+  
+  /* Scrollbar styling for Firefox */
+  .black-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #000000 transparent; /* Black thumb and transparent track */
+  }
+  

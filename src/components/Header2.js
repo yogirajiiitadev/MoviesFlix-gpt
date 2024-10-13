@@ -49,7 +49,7 @@ export const Header2 = ()=>{
             src={LOGO_mfix} alt=""></img>
             <div className="flex p-2">
                 <img className="mt-2 w-12 h-12 " src={LOGO_avatar} alt=""></img>
-                <button onClick={handleSignOut} className="px-2 font-bold text-black">(Sign Out)</button>
+                <button onClick={handleSignOut} className="px-2 font-bold text-white">(Sign Out)</button>
             </div>
         </div>
     )
