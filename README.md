@@ -43,7 +43,9 @@ A React application inspired by Netflix, MoviesFlix-GPT provides a dynamic platf
   - Search bar for movie queries.
   - Provides personalized movie suggestions based on search input.
   - Created a GPT Search Page which has a Search bar along with Movies suggestions.
-  - Integrate GPT API's/
+  - Integrate Gemini API's and got movies list
+  - Got corresponding movies data from tmdb.
+  - Reused MovieList component to render GPT search movies.
 
 ## Project Setup
 

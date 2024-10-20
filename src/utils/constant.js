@@ -15,3 +15,6 @@ export const API_constants = {
 export const MOVIE_IMG_BASEURL = "https://image.tmdb.org/t/p/w500";
 
 export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/7c0e18aa-2c95-474d-802e-7f30e75dcca4/web/IN-en-20241014-TRIFECTA-perspective_e7121311-c11e-4809-a3e6-22abffa33569_large.jpg";
+
+export const OPENAI_KEY = "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";
+export const OPENAI_KEY2 = "AIzaSyC49dRpSAz9RVnbrwMko1F9NxkjqNiL_1k";
